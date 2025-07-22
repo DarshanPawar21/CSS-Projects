@@ -1,0 +1,10 @@
+body {
+/* Tipografía */
+  text-align: center;}
+
+.hero {
+/* Tipografía */
+  font-style: italic;
+
+  /* Colores y efectos */
+  color: rgb(200, 190, 190);}
