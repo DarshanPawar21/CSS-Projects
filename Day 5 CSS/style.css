@@ -1,0 +1,23 @@
+.box{
+    display:flex;
+    justify-content: space-between;
+
+}
+.box1{
+    background:radial-gradient(#27AEDB,#3EDF9C);
+    height:50px;
+    width:150px;
+    border-radius: 50px;
+}
+.box2{
+    background:radial-gradient(#F4C55D,#E6450D);
+    height:50px;
+    width:150px;
+    border-radius: 50px;
+}
+.box3{
+    background:radial-gradient(#667CE7,#7450A9);
+    height:50px;
+    width:150px;
+    border-radius: 50px;
+}
