@@ -1,0 +1,26 @@
+body{
+    background: black;
+}
+.Photo-1{
+    height: 200px;
+    width: 175px;
+    border-radius: 3px;
+}
+.photo{
+    margin: ;
+    display: inline-block;
+    gap: 2px;
+    flex-direction: row;
+}
+.photo-2{
+    height: 140px;
+    width: 182px;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+.photo-3{
+     height:250px;
+    width:90px;
+    border-radius: 3px;
+    margin-top: 30px;
+}

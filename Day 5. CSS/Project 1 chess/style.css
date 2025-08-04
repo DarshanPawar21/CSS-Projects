@@ -1,0 +1,21 @@
+body{
+    background: grey;
+}
+.chess{
+    display: flex;gap: 1px; 
+    padding: 1px;
+    justify-content: center;
+    justify-items:center ;
+    
+}
+.row{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+
+}
+.row-1{
+    height: 150px;
+    width: 150px;
+    background-color:black;
+}
