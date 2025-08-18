@@ -1,0 +1,17 @@
+body{
+    background: black;
+}
+.gellery{
+    columns: 6;
+
+}
+.box{
+    margin-top: px;
+}
+.img{
+    width:100%;
+    height:auto;
+    display: block;
+    
+    border-radius: 10px;
+}

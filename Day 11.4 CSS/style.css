@@ -1,0 +1,236 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.heading{
+    width:100% ;
+    height:20% ;
+    background-color: black;
+    position: relative;
+}
+.title{
+     color: white;
+     font-family:Roboto;
+}
+.h1{
+    font-size: 30px;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+.h2{
+    font-size: ;
+    position: absolute;
+    top:45% ;
+    left:37.5%;
+}
+.main{
+    width:100%;
+    height:100%;
+    background-color:#F1F1F1;
+    position: relative;
+    display: flex;
+}
+.n1{
+    font-family: Roboto;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 5%;
+    left:40%;
+}
+img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    border: solid #D7D3F9;
+    position: absolute;
+    top: 9%;
+    left: 35%;
+}
+.pic-1{
+    width:250px;
+    height:200px;
+    background-color: #FFFFFF;
+    border-radius:10px;
+}
+.pic-1{
+    position: absolute;
+    top: 10%;
+    box-shadow: 2px 10px 1px rgb(0,0,0,0.1);
+}
+.d1{
+    font-family:Roboto;
+    font-weight: 600;
+    position: absolute;
+    top: 55%;
+    left: 42%;
+}
+.d2{
+    font-family: Roboto;
+    position: absolute;
+    color: silver;
+    font-size: 14px;
+    top: 70%;
+    left: 31%;
+}
+.pic-2{
+     width:250px;
+    height:200px;
+    background-color: #FFFFFF;
+    border-radius:10px;   
+}
+.pic-2{
+    position: absolute;
+    top: 10%;
+    box-shadow: 1px 10px 10px rgb(0,0,0,0.1);
+    bottom: 2%;
+    left: 13%;
+}
+.n2{
+    font-family: Roboto;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 42.3%;
+}
+.card {
+            width: 250px;
+            height: 150px;
+            perspective: 1000px;
+            /* Creates 3D effect */
+            position: absolute;
+            top: 60%;
+            position: relative;
+        }
+
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .card-front,
+        .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            /* Hide the back side when facing front */
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            
+        }
+
+        .card-front {
+            background:#FFEAA7;
+            color: #000;
+        }
+
+        .card-back {
+            background:rgb(0, 204, 255);
+            color:black;font-family: Roboto;
+            transform: rotateY(180deg);
+            
+        }
+
+        
+.card-1 {
+            width: 250px;
+            height: 150px;
+            perspective: 1000px;
+            /* Creates 3D effect */
+            position: absolute;
+            top: 60%;
+            position: relative;
+            margin: 10px;
+            
+        }
+
+        .card-inner-1 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .card-1:hover .card-inner-1 {
+            transform: rotateY(180deg);
+        }
+
+        .card-front-1,
+        .card-back-1 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            /* Hide the back side when facing front */
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            bottom: 6%;
+            
+        }
+
+        .card-front-1 {
+            background:#FFEAA7;
+            color: #000;
+        }
+
+        .card-back-1 {
+            background:rgb(0, 204, 255);
+            color:black;font-family: Roboto;
+            transform: rotateY(180deg);
+        }
+        .n3{
+             font-family: Roboto;
+             color: black;
+            font-size: 20px;
+            font-weight: 600;
+            position: absolute;
+            top: 88%;
+            left: 42%;
+        }
+        .button{
+            
+        
+        }
+        .button-1{
+            width:15%;
+            height:7%;
+            background-color: #0984E3;
+            border-radius:70px;
+            position: absolute;
+            top: 100%;
+            
+        }
+        .button span{
+            color: white;
+            display: flex;
+            justify-self: center;
+            justify-content: center;
+            text-align: center;
+    
+        }
