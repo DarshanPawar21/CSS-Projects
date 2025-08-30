@@ -1,0 +1,436 @@
+body{
+    width: 100%;
+    height: 150vh;
+    margin: 0%;
+    padding: 0%;
+}
+.heading{
+    width: 100%;
+    height: 10%;
+    background: rgb(51, 51, 113);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    color: white;
+}
+.img-1{
+    width: 100%;
+    height: 600px;
+    filter: blur(1px);
+}
+.section-1{
+    position: relative;
+}
+.write-1{
+    left: 40%;
+    bottom: 45%;
+    position: absolute;
+}
+.write-2{
+    position: absolute;
+    top: 91%;
+    left: 8%;
+    color: white;
+    font-family: "Abel";
+    font-size:24px;
+    gap: 5px;
+    font-weight: 500;
+}
+.wellcome{
+    font-family:"Abel";
+    color: white;
+    font-size: 80px;
+    gap: 2;
+}
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.h2{
+    top: 90%;
+    position: absolute;
+}
+.icon-1{
+    position: absolute;
+    top: 110%;
+    left: 27%;
+    width:80px ;
+    height:80px ;
+}
+
+.h3{
+    position: absolute;
+    top: 120%;
+    left: 25%;
+    font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+.p-1{
+    position: absolute;
+    top: 124%;
+    left: 23.5%;
+    text-align: justify;
+    width: 190px;
+    height: 20px;
+}
+.top{
+    width: 100%;
+}
+.icon-2{
+    position: absolute;
+    top: 110%;
+    left:47%;
+    width:80px ;
+    height:80px ;
+}
+.h4{
+    position: absolute;
+    top: 120%;
+    left: 45%;
+    font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+.p-2{
+    position: absolute;
+    top: 124%;
+    left: 44%;
+    text-align: justify;
+    width: 190px;
+    height: 20px;
+}
+.icon-3{
+    position: absolute;
+    top: 110%;
+    left:64%;
+    width:90px ;
+    height:90px ;
+}
+.h5{
+    position: absolute;
+    top: 120%;
+    left: 62%;
+    font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+.p-3{
+    position: absolute;
+    top: 124%;
+    left: 61%;
+    text-align: justify;
+    width: 190px;
+    height: 20px;
+}
+
+.bottom{
+    position: absolute;
+    top: 140%;
+}
+
+.icon-4{
+    position: absolute;
+    top: 140%;
+    left:27%;
+    width:90px ;
+    height:90px ;
+}
+.h6{
+    position: absolute;
+    top: 150%;
+    left: 25%;
+    font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+.p-4{
+    position: absolute;
+    top: 155%;
+    left: 23.5%;
+    text-align: justify;
+    width: 190px;
+    height: 20px;
+}
+.contect-2{
+    position: relative;
+}
+.icon-5{
+    position: absolute;
+    top: 140%;
+    left:47%;
+    width:80px ;
+    height:80px ;
+}
+.h7{
+    position: absolute;
+    top: 150%;
+    left: 45%;
+    font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+.p-5{
+    position: absolute;
+    top: 155%;
+    left: 43.5%;
+    text-align: justify;
+    width: 190px;
+    height: 20px;
+}
+.icon-6{
+    position: absolute;
+    top: 140%;
+    left:64%;
+    width:80px ;
+    height:80px ;
+}
+.h8{
+    position: absolute;
+    top: 150%;
+    left: 62.5%;
+    font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+.contect{
+    width: 100%;
+}
+.p-6{
+    position: absolute;
+    top: 155%;
+    left: 61%;
+    text-align: justify;
+    width: 190px;
+    height: 20px;
+}
+.h9{
+    position: absolute;
+    top: 175%;
+    left: 46%;
+      font-family: "Abel";
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.h10{
+    position: absolute;
+    top: 184%;
+    left: 39%;
+
+}
+
+.p1{
+    position: absolute;
+    top: 195%;
+    left: 21%;
+}
+.p2{
+    position:absolute;
+    top:202%;
+    left: 21%;
+}
+.p3{
+    position: absolute;
+    top: 208%;
+    left: 21%;
+}
+.p4{
+    position: absolute;
+    top: 214%;
+    left: 21%;
+}
+.p5{
+    position:absolute;
+    top: 220%;
+    left: 21%;
+}
+
+/* //photo-section// */
+.grid-photo img{
+    width:320px ;
+    height:300px ;
+    
+}
+.img1{
+    position: absolute;
+    top: 194%;
+    left: 30%;
+}
+.img2{
+    position: absolute;
+    top: 194%;
+    left: 52%;
+}
+.img3{
+    position: absolute;
+    top: 237%;
+    left: 30%;
+}
+.img4{
+    position: absolute;
+    top: 237%;
+    left: 52%;
+}
+.img5{
+    position: absolute;
+    top: 280%;
+    left: 30%;
+}
+.img6
+{
+    position: absolute;
+    top: 280%;
+    left: 52%;
+}
+.fot :first-child{
+    font-size: 25px;
+    font-family:'Abel';
+    letter-spacing: 4px;
+    font-weight: 900;
+    position: absolute;
+    top: 330%;
+    left: 49.5%;
+}
+.f-1{
+    position: absolute;
+    top: 338%;
+    left: 40%;
+}
+.PNJ-1 img{
+    width:350px;
+    height:250px;
+}
+.R-1{
+    font-family: 'Abel';
+    color:rgb(210, 210, 210);
+}
+.i-1{
+     font-size: 25px;
+    font-family:'Abel';
+    font-weight: 900;
+}
+.p-8{
+    width: 200px;
+}
+.image-1{
+    position: absolute;
+    top: 350%;
+    left: 17%;
+}
+.image-2{
+    position: absolute;
+    top: 350%;
+    left: 43%; 
+}
+.image-3{
+    position: absolute;
+    top: 0%;
+    left: 110%;  
+}
+.read-more{
+    color: blue;
+    font-family:'Abel';
+    font-weight: 600;   
+    position: absolute;
+    left: 70%;
+    bottom: -6%;
+}
+.decripion{
+    position: absolute;
+    top: 120%;
+    width: 430%;
+    height: 40%;
+    left: -185%;
+    background-color: silver;
+}
+.call img{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width:80px ;
+    height:80px ;
+
+}
+.c-1{
+    position: absolute;
+    top:25%;
+    left: 16%;
+    font-family: 'Abel';
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 23, 61);
+}
+.c-2{
+    position: absolute;
+    top: 45%;
+    left: 16%;
+    color: rgb(23, 23, 61);
+}
+.c-3{
+     position: absolute;
+    top: 55%;
+    left: 16%;
+    color: rgb(23, 23, 61);
+}
+
+
+.call-1 img{
+      position: absolute;
+    top: 35%;
+    left: 40%;
+    width:80px ;
+    height:80px ;
+}
+.c-4{
+    position: absolute;
+    top:25%;
+    left: 47%;
+    font-family: 'Abel';
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 23, 61);
+}
+.c-5{
+      position: absolute;
+    top: 42%;
+    left: 47%;
+    color: rgb(23, 23, 61);
+}
+.call-2 img{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    width:80px ;
+    height:80px ;
+   
+}
+.c-6{
+    position: absolute;
+    top:25%;
+    left: 75%;
+    font-family: 'Abel';
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(23, 23, 61);   
+}
+.c-7{
+    position: absolute;
+    top: 42%;
+    left: 74%;
+    color: rgb(23, 23,16);
+}
